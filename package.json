@@ -1,7 +1,7 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "name": "w3ng",
+  "version": "0.0.1",
+  "description": "A Web3 business name generator.",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -16,6 +16,7 @@
     "vite-plugin-solid": "^2.8.2"
   },
   "dependencies": {
-    "solid-js": "^1.8.11"
+    "solid-js": "^1.8.11",
+    "tailwindcss": "^3.4.1"
   }
 }
