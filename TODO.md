@@ -1,6 +1,10 @@
-- create word lists, adjectives, nouns, etc.
-  https://vercel.com/panmoni/web3-biz-name-generator
-- create a list of words that are not allowed
-- w3ng.xyz or w3ng.fun
+# TODO
 
-Maybe it will generate art to go with names that you can 1-click to NFTs? 🤔
+- more adjectives, nouns, suffixes
+- add a second method that uses roots
+- add a third method that uses AI
+- create a list of words that are not allowed
+- get a domain: w3ng.xyz or w3ng.fun
+- enable people to generate art from the name
+- enable NFT creation
+- enable FT creation
