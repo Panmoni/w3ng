@@ -72,7 +72,7 @@ const App: Component = () => {
           <img
             height="250"
             width="237"
-            src="/src/assets/w3ng-fornow.png"
+            src="/assets/w3ng-fornow.png"
             alt="Web3 Business Name Generator"
           />
         </div>
