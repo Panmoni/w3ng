@@ -79,7 +79,7 @@ const App: Component = () => {
           />
         </div>
 
-        <h1 class="text-5xl font-bold text-gray-800 mb-12">
+        <h1 class="text-5xl font-bold text-gray-800 my-8">
           Web3 Business Name Generator
         </h1>
       </header>
@@ -90,7 +90,7 @@ const App: Component = () => {
         >
           Generate Name
         </button>
-        <div class="mt-4 text-black text-3xl border-2 shadow-lg border-violet-800 bg-violet-200 text-center py-10 px-20 w-auto leading-10 rounded">
+        <div class="mt-8 text-black text-3xl border-2 shadow-lg border-violet-800 bg-violet-200 text-center py-10 px-20 w-auto leading-10 rounded">
           {name()}
         </div>
       </main>
