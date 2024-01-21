@@ -68,7 +68,7 @@ const App: Component = () => {
   }
 
   return (
-    <div class="min-h-screen flex flex-col items-center justify-center py-48 bg-purple-200">
+    <div class="min-h-screen flex flex-col items-center justify-center p-48 bg-purple-200">
       <header>
         <div class="flex justify-center">
           <img
@@ -79,7 +79,7 @@ const App: Component = () => {
           />
         </div>
 
-        <h1 class="text-5xl font-bold text-gray-800 my-8">
+        <h1 class="text-5xl font-bold text-gray-800 mb-8 mt-2">
           Web3 Business Name Generator
         </h1>
       </header>
