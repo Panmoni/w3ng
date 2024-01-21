@@ -66,19 +66,47 @@ const App: Component = () => {
   }
 
   return (
-    <div>
+    <div class="min-h-screen flex flex-col items-center justify-center py-48 bg-purple-200">
       <header>
-        <h2 class="text-2xl font-bold mb-4 text-gray-700">
-          Business Name Generator
-        </h2>
+        <div class="flex justify-center">
+          <img
+            height="250"
+            width="237"
+            src="/src/assets/w3ng-fornow.png"
+            alt="Web3 Business Name Generator"
+          />
+        </div>
+
+        <h1 class="text-5xl font-bold text-gray-800 mb-12">
+          Web3 Business Name Generator
+        </h1>
       </header>
-      <button
-        onClick={generateName}
-        class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-      >
-        Generate Name
-      </button>
-      <p class="mt-4 text-gray-700">{name()}</p>
+      <main class="flex flex-col items-center">
+        <button
+          onClick={generateName}
+          class="px-8 py-4 bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-2xl font-bold rounded-lg shadow-lg hover:from-purple-600 hover:to-indigo-600 transition-colors duration-200 mx-auto"
+        >
+          Generate Name
+        </button>
+        <div class="mt-4 text-black text-3xl border-2 shadow-lg border-violet-800 bg-violet-200 text-center py-10 px-20 w-auto leading-10 rounded">
+          {name()}
+        </div>
+      </main>
+      <footer class="mt-auto">
+        <p class="leading-4 text-gray-700 text-center">
+          A{" "}
+          <a
+            href="https://www.panmoni.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Panmoni is a Web3 product studio"
+            class="gradient-link tracking-wider font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#00abda] to-[#1476ff] hover:after:bg-gradient-to-r hover:after:from-[#00abda] hover:after:to-[#1476ff]"
+          >
+            Panmoni
+          </a>{" "}
+          project
+        </p>
+      </footer>
     </div>
   );
 };
