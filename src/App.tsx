@@ -1,6 +1,8 @@
 import type { Component } from "solid-js";
 import { createSignal } from "solid-js";
 
+import logo from "./assets/w3ng-fornow.png";
+
 const App: Component = () => {
   const [name, setName] = createSignal("");
 
@@ -72,7 +74,7 @@ const App: Component = () => {
           <img
             height="250"
             width="237"
-            src="/assets/w3ng-fornow.png"
+            src={logo}
             alt="Web3 Business Name Generator"
           />
         </div>
