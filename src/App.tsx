@@ -3,62 +3,12 @@ import { createSignal } from "solid-js";
 
 import logo from "./assets/w3ng-fornow.png";
 
+import adjectives from "../data/adjectives.js";
+import nouns from "../data/nouns.js";
+import suffixes from "../data/suffixes.js";
+
 const App: Component = () => {
   const [name, setName] = createSignal("");
-
-  const adjectives = [
-    "Decentralized",
-    "Immutable",
-    "Transparent",
-    "Trustless",
-    "Peerless",
-    "Autonomous",
-    "Digital",
-    "Virtual",
-    "Secure",
-    "Global",
-    "Distributed",
-    "Revolutionary",
-    "Innovative",
-    "Disruptive",
-    "Scalable",
-  ];
-
-  const nouns = [
-    "Ledger",
-    "Contract",
-    "Protocol",
-    "Network",
-    "Currency",
-    "Asset",
-    "Exchange",
-    "Wallet",
-    "Token",
-    "Chain",
-    "Node",
-    "Transaction",
-    "Consensus",
-    "Peer",
-    "Platform",
-  ];
-
-  const suffixes = [
-    "DAO",
-    "DApp",
-    "DeFi",
-    "Labs",
-    "Ventures",
-    "Technologies",
-    "Solutions",
-    "Systems",
-    "Networks",
-    "Services",
-    "Group",
-    "Partners",
-    "Associates",
-    "Holdings",
-    "Capital",
-  ];
 
   function generateName() {
     const adj = adjectives[Math.floor(Math.random() * adjectives.length)];
